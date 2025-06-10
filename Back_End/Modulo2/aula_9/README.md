@@ -61,6 +61,9 @@ III. A consistência eventual é uma característica típica dos bancos NoSQL, d
 IV. Em um banco do tipo chave-valor, cada registro precisa estar normalizado em três formas normais.  
 
 **É correto o que se afirma em: C, I está errada pois documentos são essencialmente arquivos imutáveis, devendo ser organizados de acordo com às funcionalidades a priori, e IV está errada pois a relação chave-valor somente infere que existam duas formas por relação**  
+
+Correção: MongoDB torna I verdade, IV inclui três formas
+
 A) I, II e III, apenas.  
 B) I e IV, apenas.  
 C) II e III, apenas.  
@@ -76,6 +79,9 @@ III. Controllers devem concentrar a lógica de negócio e persistência para sim
 IV. As funções assíncronas exigem tratamento de erros com try/catch para evitar travamentos na aplicação.  
 
 **É correto o que se afirma em: E**  
+
+Correção: III - persistência é no model/BD, estrutura básica que permanece igual das tabelas
+
 A) I, II e IV, apenas.  
 B) II e III, apenas.  
 C) I, III e IV, apenas.  
@@ -106,6 +112,9 @@ III. A programação imperativa descreve a lógica do programa por meio de coman
 IV. No paradigma funcional, o uso de loops tradicionais como for e while é incentivado em detrimento de funções como map e reduce.  
 
 **É correto o que se afirma em:E**  
+
+Correção: IV é errada, pq as funções são sequenciais e básicas, repetições não entram
+
 A) I, II e III, apenas.  
 B) II e IV, apenas.  
 C) I, III e IV, apenas.  
@@ -121,6 +130,7 @@ III. O Supabase fornece serviços de autenticação e banco de dados prontos par
 IV. Após inicializar um projeto Node com npm init -y, não é necessário criar manualmente o package.json.  
 
 **É correto o que se afirma em:E**  
+
 A) I, II e IV, apenas.  
 B) I, II e III, apenas.  
 C) II, III e IV, apenas.  
@@ -135,7 +145,7 @@ II. Uma chave estrangeira estabelece um vínculo entre duas tabelas e pode ter v
 III. O uso de chaves estrangeiras ajuda a evitar inserções de dados inválidos em colunas que dependem de outras tabelas.  
 IV. Uma tabela pode conter múltiplas chaves primárias, desde que em colunas diferentes.  
 
-**É correto o que se afirma em:C, I está errada pois chaves primárias identificam as tabelas em que estão inseridas como um todo, e IV está errada, pois uma tabela só contém uma chave primária por regra**  
+**É correto o que se afirma em:A,IV está errada, pois uma tabela só contém uma chave primária por regra**  
 A) I, II e III, apenas.  
 B) I e IV, apenas.  
 C) II e III, apenas.  
