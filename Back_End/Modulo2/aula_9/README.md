@@ -30,7 +30,7 @@ II. A entidade professor deve possuir chave primária que é referenciada na tab
 III. Uma disciplina pode ser associada a múltiplos professores, o que justifica a criação de uma tabela adicional.  
 IV. O uso de constraints como FOREIGN KEY garante que registros referenciados existam nas tabelas originais.  
 
-**É correto o que se afirma em:**  
+**É correto o que se afirma em: A, III está errada pois cada disciplina é oferecida apenas por um professor**  
 A) I, II e IV, apenas.  
 B) I e III, apenas.  
 C) II, III e IV, apenas.  
@@ -45,7 +45,7 @@ II. O Model interage com a View diretamente para exibir os dados processados.
 III. A View representa a saída visual da aplicação e é gerada a partir das informações processadas pelo Controller.  
 IV. Separar lógica de negócio e interface facilita a manutenção e reuso de código.  
 
-**É correto o que se afirma em:**  
+**É correto o que se afirma em: A, II está errada pois o Controller é quem estabelece a relação entre model e view**  
 A) I, III e IV, apenas.  
 B) I e II, apenas.  
 C) III e IV, apenas.  
@@ -60,7 +60,7 @@ II. Bancos do tipo grafo são adequados para representar relações como "amizad
 III. A consistência eventual é uma característica típica dos bancos NoSQL, diferente dos bancos relacionais.  
 IV. Em um banco do tipo chave-valor, cada registro precisa estar normalizado em três formas normais.  
 
-**É correto o que se afirma em:**  
+**É correto o que se afirma em: C, I está errada pois documentos são essencialmente arquivos imutáveis, devendo ser organizados de acordo com às funcionalidades a priori, e IV está errada pois a relação chave-valor somente infere que existam duas formas por relação**  
 A) I, II e III, apenas.  
 B) I e IV, apenas.  
 C) II e III, apenas.  
@@ -75,7 +75,7 @@ II. Requisições POST e DELETE podem ser tratadas no mesmo controller desde que
 III. Controllers devem concentrar a lógica de negócio e persistência para simplificar o projeto.  
 IV. As funções assíncronas exigem tratamento de erros com try/catch para evitar travamentos na aplicação.  
 
-**É correto o que se afirma em:**  
+**É correto o que se afirma em: E**  
 A) I, II e IV, apenas.  
 B) II e III, apenas.  
 C) I, III e IV, apenas.  
@@ -90,7 +90,7 @@ II. A camada de negócios aplica as regras funcionais e validações, separando-
 III. A camada de dados deve encapsular o acesso ao banco, impedindo o acesso direto por outras camadas.  
 IV. A ausência de camadas intermediárias favorece o acoplamento e reduz a reutilização de componentes.  
 
-**É correto o que se afirma em:**  
+**É correto o que se afirma em: A, IV está errada pois as camadas intermediárias são responsáveis pela melhor organização da estrutura do produto, portanto, devem estar presentes.**  
 A) I, II e III, apenas.  
 B) II, III e IV, apenas.  
 C) I, III e IV, apenas.  
@@ -105,7 +105,7 @@ II. O paradigma orientado a objetos favorece o encapsulamento e reutilização p
 III. A programação imperativa descreve a lógica do programa por meio de comandos sequenciais.  
 IV. No paradigma funcional, o uso de loops tradicionais como for e while é incentivado em detrimento de funções como map e reduce.  
 
-**É correto o que se afirma em:**  
+**É correto o que se afirma em:E**  
 A) I, II e III, apenas.  
 B) II e IV, apenas.  
 C) I, III e IV, apenas.  
@@ -120,7 +120,7 @@ II. O comando npm install express é utilizado para adicionar o framework Expres
 III. O Supabase fornece serviços de autenticação e banco de dados prontos para uso com suporte a SQL.  
 IV. Após inicializar um projeto Node com npm init -y, não é necessário criar manualmente o package.json.  
 
-**É correto o que se afirma em:**  
+**É correto o que se afirma em:E**  
 A) I, II e IV, apenas.  
 B) I, II e III, apenas.  
 C) II, III e IV, apenas.  
@@ -135,7 +135,7 @@ II. Uma chave estrangeira estabelece um vínculo entre duas tabelas e pode ter v
 III. O uso de chaves estrangeiras ajuda a evitar inserções de dados inválidos em colunas que dependem de outras tabelas.  
 IV. Uma tabela pode conter múltiplas chaves primárias, desde que em colunas diferentes.  
 
-**É correto o que se afirma em:**  
+**É correto o que se afirma em:C, I está errada pois chaves primárias identificam as tabelas em que estão inseridas como um todo, e IV está errada, pois uma tabela só contém uma chave primária por regra**  
 A) I, II e III, apenas.  
 B) I e IV, apenas.  
 C) II e III, apenas.  
@@ -150,7 +150,7 @@ II. A View trata da apresentação dos dados ao usuário, podendo ser renderizad
 III. O Controller centraliza a lógica de negócio e se comunica tanto com o Model quanto com a View.  
 IV. É uma boa prática permitir que a View invoque diretamente métodos do banco de dados para maior eficiência.  
 
-**É correto o que se afirma em:**  
+**É correto o que se afirma em:A, IV está errada pois, de acordo com o modelo MVC, possuir uma estrutura intermediária como o Controller é essencial para o bom funcionamento e relacionamento entre a interface e banco de dados**  
 A) I, II e III, apenas.  
 B) II e IV, apenas.  
 C) I, III e IV, apenas.  
@@ -165,7 +165,7 @@ II. A tag `<div>` é apropriada para estruturar conteúdo quando não há uma al
 III. A marcação correta de cabeçalhos hierárquicos ajuda na navegação de leitores de tela.  
 IV. Elementos semânticos são ignorados por mecanismos de busca e servem apenas para estilização visual.  
 
-**É correto o que se afirma em:**  
+**É correto o que se afirma em:A, os mecanismos de busca levam em consideração elementos semânticos, manipulando a aparência de dados na interface do usuário**  
 A) I, II e III, apenas.  
 B) II e IV, apenas.  
 C) I, III e IV, apenas.  
